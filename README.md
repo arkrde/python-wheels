@@ -185,11 +185,11 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
 -- Build files have been written to: <PWD>
 ```
 > Note: the important sections to note in the above are:
-- Gstreamer: If it does not show 'YES' then please check the installation of `libgstreamer1.0-dev` and `libgstreamer-plugins-base1.0-dev` and the gstreamer lib package
+ 1. Gstreamer: If it does not show 'YES' then please check the installation of `libgstreamer1.0-dev` and `libgstreamer-plugins-base1.0-dev` and the gstreamer lib package
 ```
 --     GStreamer:                   YES (1.14.5)
 ```
-- If Python 3 is not there, please check installation of `python3-numpy'
+ 2. If Python 3 is not there, please check installation of `python3-numpy'
 ```
 --   Python 3:
 --     Interpreter:                 /usr/bin/python3 (ver 3.6.9)
@@ -200,4 +200,11 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
 - Build:
 ```
 make -j$nproc
+```
+- Install:
+```
+sudo make install
+```
+```
+sudo ldconfig
 ```
