@@ -197,6 +197,8 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
 --     numpy:                       /usr/lib/python3/dist-packages/numpy/core/include (ver 1.13.3)
 --     install path:                /usr/lib/python3/dist-packages/cv2/python-3.6
 ```
+
+
 - Build:
 ```
 make -j$nproc
