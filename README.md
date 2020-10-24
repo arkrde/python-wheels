@@ -201,7 +201,7 @@ sudo ldconfig
 ```
 --     GStreamer:                   YES (1.14.5)
 ```
- 2. If Python 3 is not there, please check installation of `python3-numpy'
+ 2. If Python 3 is not there, please check installation of `python3-numpy`
 ```
 --   Python 3:
 --     Interpreter:                 /usr/bin/python3 (ver 3.6.9)
